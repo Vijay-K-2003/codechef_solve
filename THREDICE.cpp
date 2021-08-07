@@ -1,0 +1,1 @@
+#include <bits/stdc++.h>using namespace std;int main(){	ios_base::sync_with_stdio(false);	cin.tie(NULL);		int t;	cin >> t;	while(t-- > 0)	{		int x, y;		cin >> x >> y;		// third person wins if  z > x and z > y		double cnt = 0;		for(int i = 6 ; i > 0 ; i++)		{			if(i > x + y)			cnt = cnt + 1;		}		cout << setprecision(6) <<cnt/6 << "\n";	}	return 0;}
