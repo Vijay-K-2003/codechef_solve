@@ -1,0 +1,1 @@
+{"name":"Local: exponentialSearch","url":"d:\\CodeChef\\Programs\\GFG SEARCH\\exponentialSearch.cpp","tests":[{"id":1639492024929,"input":"15\n0 1 2 3 5 8 13 21 34 55 89 144 233 377 610\n55","output":"9"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CodeChef\\Programs\\GFG SEARCH\\exponentialSearch.cpp","group":"local","local":true}
