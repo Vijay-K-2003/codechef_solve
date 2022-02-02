@@ -4,47 +4,18 @@ void _()
 {
     int n;
     cin >> n;
-    int arr[n];
-    if(n%2 == 0)
+    int k = 0;
+    while((1 << (k + 1) ) <= n-1)
     {
-        int val = 0;
-        int val1 = n/2;
-        for(int i = 0; i < n; i++)
-        {
-            if(i%2 == 0)
-            {
-                arr[i] = val;
-                val = val + 1;
-            }
-            else
-            {
-                arr[i] = val1;
-                val1 = val1 + 1;
-            }
-        }
+        ++k;
     }
-    else
+    for(int i = (1 << k) - 1 ; i >= 0 ; --i)
     {
-        int val = 0;
-        int val1 = ceil(n/2);
-        // cout << "check " << val << " " << val1 << endl;
-        for(int i = 0; i < n; i++)
-        {
-            if(i%2 == 0)
-            {
-                arr[i] = val1;
-                val1 = val1 + 1;
-            }
-            else
-            {
-                arr[i] = val;
-                val = val + 1;
-            }
-        }
+        cout << (i) << " ";
     }
-    for(int i = 0; i < n; i++)
+    for(int i = (1 << k) ; i < n ; ++i)
     {
-        cout << arr[i] << " ";
+        cout << (i) << " ";
     }
     cout << "\n";
 }
