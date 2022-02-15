@@ -26,6 +26,6 @@ int main()
     // 36 = > 2, 3 =
     int x = 36;
     vector<int> v;
-    // 
+    
     return 0;
 }
