@@ -1,0 +1,1 @@
+{"name":"Local: max_subarrays_sliding_window","url":"d:\\CodeChef\\Programs\\max_subarrays_sliding_window.cpp","tests":[{"id":1656143244809,"input":"9 3\n1 2 3 1 4 5 2 3 6","output":"3 3 4 5 5 5 6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CodeChef\\Programs\\max_subarrays_sliding_window.cpp","group":"local","local":true}
